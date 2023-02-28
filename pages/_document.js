@@ -9,7 +9,14 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head/>
+        <Head>
+          <link
+            async
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
+          />        
+        </Head>
+       
         <body  className='my-body-class'>
           <Main />
           <NextScript />

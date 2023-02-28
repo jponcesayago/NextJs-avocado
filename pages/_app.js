@@ -20,6 +20,7 @@ export default function MyApp({ Component, pageProps }) {
            
             <Head>
                 <title>Avocado Web</title>
+                
             </Head>
             <Provider store={store}>
                 <CartProvider>
